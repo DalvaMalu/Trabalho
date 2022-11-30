@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  width: 100%;
+  min-height: 14.9vh;
+  display: grid;
+  place-items: end;
+  font-size: 16px;
+  border-bottom: 0.3vh solid rgb(204, 152, 200);
+}
+#menu {
+  margin: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(206, 151, 197);
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+#menu a:hover {
+  color: rgb(135, 59, 233);
+}
+
+section {
+  display: grid;
+  place-items: center;
+  padding: 20px 0;
+  gap: 5px;
+  min-height: 65vh;
+  border-bottom: 0.3vh solid rgb(230, 163, 233);
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.conteudo img {
+  width: 400px;
+}
+
+.conteudo div {
+  height: 700px;
+  overflow: hidden;
+}
+
+#maquiagem {
+  position: relative;
+  top: 800px;
+}
+
+#texto-um {
+  width: 900px;
+}
+
+#texto-dois {
+  width: 700px;
+  text-align: right;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  min-height: 8vh;
+}
+
+#lista-maquiagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.descricao span {
+  font-size: 12px;
+  color: #666;
+}
+
+.poison {
+  background: #5f3a69;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fefefe;
+  padding: 2px 20px;
+}
+
+.grass {
+  background: #47f5d8;
+  border-radius: 5px;
+  font-size: 12px;
+  color: rgb(143, 60, 60);
+  padding: 2px 19px;
+}
+
+.flying {
+  background: linear-gradient(#3dc7ef 50%, #bdb9b8 50%);
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  padding: 2px 20px;
+}
+
+.vendas {
+  position: relative;
+}
+
+.vendas:hover {
+  top: -70px;
+}
